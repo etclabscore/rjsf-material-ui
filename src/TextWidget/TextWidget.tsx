@@ -38,8 +38,10 @@ const TextWidget = ({
       <TextField
         id={id}
         label={label || schema.title}
+        variant="outlined"
         autoFocus={autofocus}
         required={required}
+        color="primary"
         disabled={disabled || readonly}
         type="text"
         value={value ? value : ''}

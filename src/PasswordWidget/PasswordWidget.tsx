@@ -40,6 +40,7 @@ const PasswordWidget = ({
         label={label || schema.title}
         autoFocus={autofocus}
         required={required}
+        variant="outlined"
         disabled={disabled || readonly}
         type="password"
         value={value ? value : ''}
